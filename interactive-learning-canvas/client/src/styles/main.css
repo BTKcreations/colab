@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+#root {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.whiteboard {
+    flex: 1;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    position: relative;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+}
+
+.button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.math-input {
+    margin: 10px;
+}
+
+.diagram-template {
+    margin: 10px;
+}
+
+.assignment-mode {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.rubric {
+    margin: 10px 0;
+}
+
+.media-sharing {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.version-history {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-height: 300px;
+    overflow-y: auto;
+}
